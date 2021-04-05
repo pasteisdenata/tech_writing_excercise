@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<!-- saved from url=(0093)https://documentation.tricentis.com/tosca/1300/en/content/installation_tosca/installation.htm -->
+<html xmlns:madcap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us"
+    class="_Skins_HTML5___Side_Navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="index.xml"
+    data-mc-path-to-help-system="../../" data-mc-has-content-body="True" data-mc-target-type="WebHelp2"
+    data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false"
+    data-mc-medium="non-print" data-mc-toc-path="">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tricentis Tosca installation overview</title>
+    <script async="" src="./installation_files/analytics.js.download"></script>
+    <script type="text/javascript">/* <![CDATA[ */
+
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-6574346-8', 'auto');
+        ga('send', 'pageview');
+		/* ]]> */</script>
+    <link href="./installation_files/Slideshow.css" rel="stylesheet">
+    <link href="./installation_files/TextEffects.css" rel="stylesheet">
+    <link href="./installation_files/Topic.css" rel="stylesheet">
+    <link href="./installation_files/Styles.css" rel="stylesheet">
+    <link href="./installation_files/Tablet.css" rel="stylesheet">
+    <link href="./installation_files/Mobile.css" rel="stylesheet">
+    <link href="./installation_files/foundation.6.2.3.css" rel="stylesheet">
+    <link href="./installation_files/Styles(1).css" rel="stylesheet">
+    <link href="./installation_files/Tablet(1).css" rel="stylesheet">
+    <link href="./installation_files/Mobile(1).css" rel="stylesheet">
+    <style>
+    </style>
+    <link href="./installation_files/Styles(2).css" rel="stylesheet">
+    <link href="./installation_files/tricentis_standard_tabelle.css" rel="stylesheet">
+    <script src="./installation_files/jquery.min.js.download">
+    </script>
+    <script src="./installation_files/purify.min.js.download" defer="defer">
+    </script>
+    <script src="./installation_files/require.min.js.download" defer="defer">
+    </script>
+    <script src="./installation_files/require.config.js.download" defer="defer">
+    </script>
+    <script src="./installation_files/foundation.6.2.3_custom.js.download" defer="defer">
+    </script>
+    <script src="./installation_files/plugins.min.js.download" defer="defer">
+    </script>
+    <script src="./installation_files/MadCapAll.js.download" defer="defer">
+    </script>
+    <script src="./installation_files/permalink.js.download">
+    </script>
+    <meta class="foundation-mq">
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_"
+        data-requiremodule="../../Data/Breakpoints.js" src="./installation_files/Breakpoints.js.download"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_"
+        data-requiremodule="../../Data/Language.js" src="./installation_files/Language.js.download"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_"
+        data-requiremodule="../../Data/Tocs/_webhelp__Tricentis_Tosca_WebHelp.js"
+        src="./installation_files/_webhelp__Tricentis_Tosca_WebHelp.js.download"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_"
+        data-requiremodule="../../Data/Tocs/_webhelp__Tricentis_Tosca_WebHelp_Chunk0.js"
+        src="./installation_files/_webhelp__Tricentis_Tosca_WebHelp_Chunk0.js.download"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_"
+        data-requiremodule="../../Data/Tocs/_webhelp__Tricentis_Tosca_WebHelp_Chunk1.js"
+        src="./installation_files/_webhelp__Tricentis_Tosca_WebHelp_Chunk1.js.download"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_"
+        data-requiremodule="../../Data/Tocs/_webhelp__Tricentis_Tosca_WebHelp_Chunk2.js"
+        src="./installation_files/_webhelp__Tricentis_Tosca_WebHelp_Chunk2.js.download"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_"
+        data-requiremodule="../../Data/Tocs/_webhelp__Tricentis_Tosca_WebHelp_Chunk3.js"
+        src="./installation_files/_webhelp__Tricentis_Tosca_WebHelp_Chunk3.js.download"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_"
+        data-requiremodule="../../Data/Tocs/_webhelp__Tricentis_Tosca_WebHelp_Chunk4.js"
+        src="./installation_files/_webhelp__Tricentis_Tosca_WebHelp_Chunk4.js.download"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_"
+        data-requiremodule="../../Data/Tocs/_webhelp__Tricentis_Tosca_WebHelp_Chunk5.js"
+        src="./installation_files/_webhelp__Tricentis_Tosca_WebHelp_Chunk5.js.download"></script>
+</head>
+
+<body>
+    <div class="foundation-wrap off-canvas-wrapper">
+        <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+            <aside class="off-canvas position-right" role="navigation" id="offCanvas"
+                data-off-canvas="0wlv14-off-canvas" data-position="right" data-mc-ignore="true" aria-hidden="true">
+                <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="polg3d-drilldown"
+                    data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent"
+                    data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent"
+                    data-mc-css-sub-menu="vertical menu slide-in-right is-drilldown-submenu"
+                    data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True"
+                    data-mc-include-back="True" data-mc-defer-expand-event="True"
+                    data-mc-expand-event="click.zf.drilldown" data-mc-toc="True" data-mc-chunk="Data/Toc.xml">
+                    <li class="tree-node tree-node-leaf" data-mc-id="0"><a
+                            href="https://documentation.tricentis.com/tosca/1300/en/content/resources/webhelp/cover_web.htm">Home</a>
+                    </li>
+                    <li class="tree-node tree-node-leaf" data-mc-id="1"><a
+                            href="https://documentation.tricentis.com/tosca/1300/en/content/video/videos.htm">Videos</a>
+                    </li>
+                    <li class="tree-node is-drilldown-submenu-parent" data-mc-id="2"><a
+                            href="https://documentation.tricentis.com/tosca/1300/en/content/resources/webhelp/about_tricentis_tosca.htm"
+                            aria-expanded="false" role="button">About Tricentis Tosca</a></li>
+                    <li class="tree-node is-drilldown-submenu-parent" data-mc-id="3"><a
+                            href="https://documentation.tricentis.com/tosca/1300/en/content/systemrequirements/systemrequirements.htm"
+                            aria-expanded="false" role="button">System Requirements</a></li>
+                    <li class="tree-node is-drilldown-submenu-parent" data-mc-id="4"><a
+                            href="https://documentation.tricentis.com/tosca/1300/en/content/installation_tosca/installation.htm"
+                            aria-expanded="true" role="button"
+                            aria-controls="submenu0436ec0b-b909-4e97-9751-0314412f65c5">Install Tricentis Tosca</a>
+                        <ul class="vertical menu slide-in-right is-drilldown-submenu submenu is-active"
+                            id="submenu0436ec0b-b909-4e97-9751-0314412f65c5" data-submenu="" aria-hidden="false"
+                            role="menu" style="display: block;">
+                            <li class="js-drilldown-back tree-node is-submenu-item is-drilldown-submenu-item"><a
+                                    href="https://documentation.tricentis.com/tosca/1300/en/content/installation_tosca/installation.htm#"
+                                    role="button">Back</a></li>
+                            <li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item tree-node-selected"
+                                data-mc-id="17"><a
+                                    href="https://documentation.tricentis.com/tosca/1300/en/content/installation_tosca/installation.htm"
+                                    class="selected">Install Tricentis Tosca</a></li>
+                            <li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item"
+                                data-mc-id="18"><a
+                                    href="https://documentation.tricentis.com/tosca/1300/en/content/installation_tosca/installation_process.htm">Perform
+                                    the installation</a></li>
+                            <li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item"
+                                data-mc-id="19"><a
+                                    href="https://documentation.tricentis.com/tosca/1300/en/content/installation_tosca/unattended_installation.htm">Unattended
+                                    installation</a></li>
+                            <li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item"
+                                data-mc-id="20"><a
+                                    href="https://documentation.tricentis.com/tosca/1300/en/content/installation_tosca/citrix.htm">Install
+                                    Tosca in CITRIX environments</a></li>
+                            <li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item"
+                                data-mc-id="21"><a
+                                    href="https://documentation.tricentis.com/tosca/1300/en/content/tosca_commander/files_and_directories.htm">Files
+                                    and directories</a></li>
+                            <li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item"
+                                data-mc-id="22"><a
+                                    href="https://documentation.tricentis.com/tosca/1300/en/content/installation_tosca/ports.htm">Ports
+                                    required by Tosca components</a></li>
+                            <li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item"
+                                data-mc-id="23"><a
+                                    href="https://documentation.tricentis.com/tosca/1300/en/content/installation_tosca/change_repair_uninstall.htm">Maintaining
+                                    the Tosca installation</a></li>
+                            <li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item"
+                                data-mc-id="24"><a
+                                    href="https://documentation.tricentis.com/tosca/1300/en/content/installation_tosca/prepare_multiuser.htm">Preparing
+                                    databases for the multiuser mode</a></li>
+                            <li class="tree-node is-drilldown-submenu-parent is-submenu-item is-drilldown-submenu-item"
+                                data-mc-id="25"><a
+                                    href="https://documentation.tricentis.com/tosca/1300/en/content/installation_tosca/windows2016_overview.htm"
+                                    aria-expanded="false" role="button">Tosca Commander on Windows Server 2016</a></li>
+                        </ul>
+                    </li>
+                    <li class="tree-node is-drilldown-submenu-parent" data-mc-id="5"><a
+                            href="https://documentation.tricentis.com/tosca/1300/en/content/tosca_server/tosca_server.htm"
+                            aria-expanded="false" role="button">Install Tricentis Tosca Server</a></li>
+                    <li class="tree-node is-drilldown-submenu-parent" data-mc-id="6"><a
+                            href="https://documentation.tricentis.com/tosca/1300/en/content/upgrade/upgrade_overview.htm"
+                            aria-expanded="false" role="button">Upgrade from 12.3 to 13.0</a></li>
+                    <li class="tree-node is-drilldown-submenu-parent" data-mc-id="7"><a
+                            href="https://documentation.tricentis.com/tosca/1300/en/content/licensing/lic_administering_licenses.htm"
+                            aria-expanded="false" role="button">License administration</a></li>
+                    <li class="tree-node is-drilldown-submenu-parent" data-mc-id="8"><a
+                            href="https://documentation.tricentis.com/tosca/1300/en/content/tutorial/introduction.htm"
+                            aria-expanded="false" role="button">First steps tutorial</a></li>
+                    <li class="tree-node is-drilldown-submenu-parent" data-mc-id="9"><a
+                            href="https://documentation.tricentis.com/tosca/1300/en/content/tosca_commander/create_and_manage_workspaces.htm"
+                            aria-expanded="false" role="button">Create and manage workspaces</a></li>
+                    <li class="tree-node is-drilldown-submenu-parent" data-mc-id="10"><a
+                            href="https://documentation.tricentis.com/tosca/1300/en/content/tosca_commander/working_with_tosca.htm"
+                            aria-expanded="false" role="button">Work with Tricentis Tosca</a></li>
+                    <li class="tree-node is-drilldown-submenu-parent" data-mc-id="11"><a
+                            href="https://documentation.tricentis.com/tosca/1300/en/content/tosca_commander/administering_projects.htm"
+                            aria-expanded="false" role="button">Manage projects and users</a></li>
+                    <li class="tree-node is-drilldown-submenu-parent" data-mc-id="12"><a
+                            href="https://documentation.tricentis.com/tosca/1300/en/content/resources/webhelp/tosca_options_and_settings_overview.htm"
+                            aria-expanded="false" role="button">Configure options and settings</a></li>
+                    <li class="tree-node is-drilldown-submenu-parent" data-mc-id="13"><a
+                            href="https://documentation.tricentis.com/tosca/1300/en/content/resources/webhelp/tosca_sections_overview.htm"
+                            aria-expanded="false" role="button">Plan, create and execute tests</a></li>
+                    <li class="tree-node is-drilldown-submenu-parent" data-mc-id="14"><a
+                            href="https://documentation.tricentis.com/tosca/1300/en/content/tbox/tbox_intro.htm"
+                            aria-expanded="false" role="button">Steer with Engines 3.0</a></li>
+                    <li class="tree-node is-drilldown-submenu-parent" data-mc-id="15"><a
+                            href="https://documentation.tricentis.com/tosca/1300/en/content/classic_engines/engines.htm"
+                            aria-expanded="false" role="button">Steer with Classic Engines</a></li>
+                    <li class="tree-node is-drilldown-submenu-parent" data-mc-id="16"><a
+                            href="https://documentation.tricentis.com/tosca/1300/en/content/resources/webhelp/addins.htm"
+                            aria-expanded="false" role="button">Tosca Extensions</a></li>
+                </ul>
+            </aside>
+            <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                <div data-sticky-container="" class="title-bar-container sticky-container"
+                    style="min-height: 81.4375px;">
+                    <nav class="title-bar tab-bar sticky is-anchored is-at-top" data-sticky="sxkuii-sticky"
+                        data-options="marginTop:0"
+                        style="width: 100%; max-width: 1287.2px; margin-top: 0px; top: 0px; bottom: auto;"
+                        data-sticky-on="only screen and (max-width: 1279px)" data-mc-ignore="true"
+                        data-resize="r7hyvy-sticky" data-events="resize"><a
+                            class="skip-to-content fluid-skip showOnFocus"
+                            href="https://documentation.tricentis.com/tosca/1300/en/content/installation_tosca/installation.htm#mc-main-content">Skip
+                            To Main Content</a>
+                        <div class="middle title-bar-section outer-row clearfix">
+                            <div class="menu-icon-container relative clearfix">
+                                <div class="central-dropdown" style="display:none;" id="#centralSmallScreen"><a
+                                        class="central-account-drop"><span class="central-account-image"></span><span
+                                            class="central-account-text">Account</span></a>
+                                    <div class="central-dropdown-content"><a
+                                            class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                        <hr class="central-separator"><a
+                                            class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                    </div>
+                                </div>
+                                <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas"
+                                    aria-expanded="false" aria-controls="offCanvas"><span></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="title-bar-layout outer-row">
+                            <div class="logo-wrapper"><a class="logo"
+                                    href="https://documentation.tricentis.com/tosca/1300/en/content/resources/webhelp/cover_web.htm"><img
+                                        src="./installation_files/transparent.gif" alt="Logo"
+                                        class="invisible-label"></a>
+                            </div>
+                            <div class="navigation-wrapper nocontent">
+                                <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children"
+                                    data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter"
+                                    data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False"
+                                    data-mc-include-indicator="False" data-mc-include-children="True"
+                                    data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True"
+                                    data-mc-chunk="Data/Toc.xml">
+
+                                    <li data-mc-id="0"><a
+                                            href="https://documentation.tricentis.com/tosca/1300/en/content/resources/webhelp/cover_web.htm">Home</a>
+                                    </li>
+                                    <li data-mc-id="1"><a
+                                            href="https://documentation.tricentis.com/tosca/1300/en/content/video/videos.htm">Videos</a>
+                                    </li>
+                                    <li data-mc-id="2" class="has-children"><a
+                                            href="https://documentation.tricentis.com/tosca/1300/en/content/resources/webhelp/about_tricentis_tosca.htm">About
+                                            Tricentis Tosca</a><button
+                                            class="topnav-expand showOnFocus topnav-expand-toplevel"
+                                            aria-label="About Tricentis Tosca" aria-expanded="false"
+                                            aria-haspopup="true">»</button></li>
+                                    <li data-mc-id="3" class="has-children"><a
+                                            href="https://documentation.tricentis.com/tosca/1300/en/content/systemrequirements/systemrequirements.htm">System
+                                            Requirements</a><button
+                                            class="topnav-expand showOnFocus topnav-expand-toplevel"
+                                            aria-label="System Requirements" aria-expanded="false"
+                                            aria-haspopup="true">»</button></li>
+                                    <li data-mc-id="4" class="has-children"><a
+                                            href="https://documentation.tricentis.com/tosca/1300/en/content/installation_tosca/installation.htm">Install
+                                            Tricentis Tosca</a><button
+                                            class="topnav-expand showOnFocus topnav-expand-toplevel"
+                                            aria-label="Install Tricentis Tosca" aria-expanded="false"
+                                            aria-haspopup="true">»</button></li>
+                                    <li data-mc-id="5" class="has-children"><a
+                                            href="https://documentation.tricentis.com/tosca/1300/en/content/tosca_server/tosca_server.htm">Install
+                                            Tricentis Tosca Server</a><button
+                                            class="topnav-expand showOnFocus topnav-expand-toplevel"
+                                            aria-label="Install Tricentis Tosca Server" aria-expanded="false"
+                                            aria-haspopup="true">»</button></li>
+                                    <li data-mc-id="6" class="has-children"><a
+                                            href="https://documentation.tricentis.com/tosca/1300/en/content/upgrade/upgrade_overview.htm">Upgrade
+                                            from 12.3 to 13.0</a><button
+                                            class="topnav-expand showOnFocus topnav-expand-toplevel"
+                                            aria-label="Upgrade from 12.3 to 13.0" aria-expanded="false"
+                                            aria-haspopup="true">»</button></li>
+                                    <li data-mc-id="7" class="has-children"><a
+                                            href="https://documentation.tricentis.com/tosca/1300/en/content/licensing/lic_administering_licenses.htm">License
+                                            administration</a><button
+                                            class="topnav-expand showOnFocus topnav-expand-toplevel"
+                                            aria-label="License administration" aria-expanded="false"
+                                            aria-haspopup="true">»</button></li>
+                                    <li data-mc-id="8" class="has-children"><a
+                                            href="https://documentation.tricentis.com/tosca/1300/en/content/tutorial/introduction.htm">First
+                                            steps tutorial</a><button
+                                            class="topnav-expand showOnFocus topnav-expand-toplevel"
+                                            aria-label="First steps tutorial" aria-expanded="false"
+                                            aria-haspopup="true">»</button></li>
+                                    <li data-mc-id="9" class="has-children"><a
+                                            href="https://documentation.tricentis.com/tosca/1300/en/content/tosca_commander/create_and_manage_workspaces.htm">Create
+                                            and manage workspaces</a><button
+                                            class="topnav-expand showOnFocus topnav-expand-toplevel"
+                                            aria-label="Create and manage workspaces" aria-expanded="false"
+                                            aria-haspopup="true">»</button></li>
+                                    <li data-mc-id="10" class="has-children"><a
+                                            href="https://documentation.tricentis.com/tosca/1300/en/content/tosca_commander/working_with_tosca.htm">Work
+                                            with Tricentis Tosca</a><button
+                                            class="topnav-expand showOnFocus topnav-expand-toplevel"
+                                            aria-label="Work with Tricentis Tosca" aria-expanded="false"
+                                            aria-haspopup="true">»</button></li>
+                                    <li data-mc-id="11" class="has-children"><a
+                                            href="https://documentation.tricentis.com/tosca/1300/en/content/tosca_commander/administering_projects.htm">Manage
+                                            projects and users</a><button
+                                            class="topnav-expand showOnFocus topnav-expand-toplevel"
+                                            aria-label="Manage projects and users" aria-expanded="false"
+                                            aria-haspopup="true">»</button></li>
+                                    <li data-mc-id="12" class="has-children"><a
+                                            href="https://documentation.tricentis.com/tosca/1300/en/content/resources/webhelp/tosca_options_and_settings_overview.htm">Configure
+                                            options and settings</a><button
+                                            class="topnav-expand showOnFocus topnav-expand-toplevel"
+                                            aria-label="Configure options and settings" aria-expanded="false"
+                                            aria-haspopup="true">»</button></li>
+                                    <li data-mc-id="13" class="has-children"><a
+                                            href="https://documentation.tricentis.com/tosca/1300/en/content/resources/webhelp/tosca_sections_overview.htm">Plan,
+                                            create and execute tests</a><button
+                                            class="topnav-expand showOnFocus topnav-expand-toplevel"
+                                            aria-label="Plan, create and execute tests" aria-expanded="false"
+                                            aria-haspopup="true">»</button></li>
+                                    <li data-mc-id="14" class="has-children"><a
+                                            href="https://documentation.tricentis.com/tosca/1300/en/content/tbox/tbox_intro.htm">Steer
+                                            with Engines 3.0</a><button
+                                            class="topnav-expand showOnFocus topnav-expand-toplevel"
+                                            aria-label="Steer with Engines 3.0" aria-expanded="false"
+                                            aria-haspopup="true">»</button></li>
+                                    <li data-mc-id="15" class="has-children"><a
+                                            href="https://documentation.tricentis.com/tosca/1300/en/content/classic_engines/engines.htm">Steer
+                                            with Classic Engines</a><button
+                                            class="topnav-expand showOnFocus topnav-expand-toplevel"
+                                            aria-label="Steer with Classic Engines" aria-expanded="false"
+                                            aria-haspopup="true">»</button></li>
+                                    <li data-mc-id="16" class="has-children"><a
+                                            href="https://documentation.tricentis.com/tosca/1300/en/content/resources/webhelp/addins.htm">Tosca
+                                            Extensions</a><button
+                                            class="topnav-expand showOnFocus topnav-expand-toplevel"
+                                            aria-label="Tosca Extensions" aria-expanded="false"
+                                            aria-haspopup="true">»</button></li>
+                                </ul>
+                                <div class="central-dropdown" style="display:none;" id="#centralTop"><a
+                                        class="central-account-drop"><span class="central-account-image"></span><span
+                                            class="central-account-text">Account</span></a>
+                                    <div class="central-dropdown-content"><a
+                                            class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                        <hr class="central-separator"><a
+                                            class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nav-search-wrapper">
+                                <div class="nav-search row">
+                                    <form class="search"
+                                        action="https://documentation.tricentis.com/tosca/1300/en/content/installation_tosca/installation.htm#">
+                                        <div class="search-bar search-bar-container needs-pie">
+                                            <input class="search-field needs-pie" type="search"
+                                                aria-label="Search Field" placeholder="Search">
+                                            <div class="search-filter-wrapper"><span class="invisible-label"
+                                                    id="search-filters-label">Filter: </span>
+                                                <div class="search-filter" aria-haspopup="true"
+                                                    aria-controls="sf-content" aria-expanded="false"
+                                                    aria-label="Search Filter" title="All Files" role="button"
+                                                    tabindex="0">
+                                                </div>
+                                                <div class="search-filter-content" id="sf-content">
+                                                    <ul>
+                                                        <li>
+                                                            <button class="mc-dropdown-item"
+                                                                aria-labelledby="search-filters-label filterSelectorLabel-00001"><span
+                                                                    id="filterSelectorLabel-00001">All Files</span>
+                                                            </button>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="search-submit-wrapper" dir="ltr">
+                                                <div class="search-submit" title="Search" role="button" tabindex="0">
+                                                    <span class="invisible-label">Submit Search</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="central-dropdown" style="display:none;"><a
+                                        class="central-account-drop"><span class="central-account-image"></span><span
+                                            class="central-account-text">Account</span></a>
+                                    <div class="central-dropdown-content"><a
+                                            class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                        <hr class="central-separator"><a
+                                            class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="main-section">
+                    <div class="row outer-row sidenav-layout">
+                        <nav class="sidenav-wrapper">
+                            <div class="sidenav-container">
+                                <ul class="off-canvas-accordion vertical menu sidenav"
+                                    data-accordion-menu="elgqxf-accordion-menu"
+                                    data-mc-css-tree-node-expanded="is-accordion-submenu-parent"
+                                    data-mc-css-tree-node-collapsed="is-accordion-submenu-parent"
+                                    data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested"
+                                    data-mc-include-indicator="False" data-mc-include-icon="False"
+                                    data-mc-include-parent-link="False" data-mc-include-back="False"
+                                    data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu"
+                                    data-mc-toc="True" data-mc-side-nav-menu="True" data-mc-chunk="Data/Toc.xml">
+                                    <li class="tree-node tree-node-leaf" data-mc-id="0"><a
+                                            href="https://documentation.tricentis.com/tosca/1300/en/content/resources/webhelp/cover_web.htm">Home</a>
+                                    </li>
+                                    <li class="tree-node tree-node-leaf" data-mc-id="1"><a
+                                            href="https://documentation.tricentis.com/tosca/1300/en/content/video/videos.htm">Videos</a>
+                                    </li>
+                                    <li class="tree-node is-accordion-submenu-parent" data-mc-id="2"><a
+                                            href="https://documentation.tricentis.com/tosca/1300/en/content/resources/webhelp/about_tricentis_tosca.htm">About
+                                            Tricentis Tosca<span class="submenu-toggle-container" role="button"
+                                                tabindex="0" aria-expanded="false"><span
+                                                    class="submenu-toggle">&nbsp;</span><span
+                                                    class="invisible-label">About Tricentis
+                                                    Tosca&nbsp;</span></span></a></li>
+                                    <li class="tree-node is-accordion-submenu-parent" data-mc-id="3"><a
+                                            href="https://documentation.tricentis.com/tosca/1300/en/content/systemrequirements/systemrequirements.htm">System
+                                            Requirements<span class="submenu-toggle-container" role="button"
+                                                tabindex="0" aria-expanded="false"><span
+                                                    class="submenu-toggle">&nbsp;</span><span
+                                                    class="invisible-label">System Requirements&nbsp;</span></span></a>
+                                    </li>
+                                    <li class="tree-node is-accordion-submenu-parent tree-node-selected" data-mc-id="4">
+                                        <a href="https://documentation.tricentis.com/tosca/1300/en/content/installation_tosca/installation.htm"
+                                            class="selected">Install Tricentis Tosca<span
+                                                class="submenu-toggle-container" role="button" tabindex="0"
+                                                aria-expanded="true"
+                                                aria-controls="submenu0365189b-2ede-41eb-9e05-23ed002b6fb9"><span
+                                                    class="submenu-toggle">&nbsp;</span><span
+                                                    class="invisible-label">Install Tricentis
+                                                    Tosca&nbsp;</span></span></a>
+                                        <ul class="vertical menu accordion-menu is-accordion-submenu nested"
+                                            id="submenu0365189b-2ede-41eb-9e05-23ed002b6fb9">
+                                            <li class="tree-node tree-node-leaf" data-mc-id="17"><a
+                                                    href="https://documentation.tricentis.com/tosca/1300/en/content/installation_tosca/installation_process.htm">Perform
+                                                    the installation</a></li>
+                                            <li class="tree-node tree-node-leaf" data-mc-id="18"><a
+                                                    href="https://documentation.tricentis.com/tosca/1300/en/content/installation_tosca/unattended_installation.htm">Unattended
+                                                    installation</a></li>
+                                            <li class="tree-node tree-node-leaf" data-mc-id="19"><a
+                                                    href="https://documentation.tricentis.com/tosca/1300/en/content/installation_tosca/citrix.htm">Install
+                                                    Tosca in CITRIX environments</a></li>
+                                            <li class="tree-node tree-node-leaf" data-mc-id="20"><a
+                                                    href="https://documentation.tricentis.com/tosca/1300/en/content/tosca_commander/files_and_directories.htm">Files
+                                                    and directories</a></li>
+                                            <li class="tree-node tree-node-leaf" data-mc-id="21"><a
+                                                    href="https://documentation.tricentis.com/tosca/1300/en/content/installation_tosca/ports.htm">Ports
+                                                    required by Tosca components</a></li>
+                                            <li class="tree-node tree-node-leaf" data-mc-id="22"><a
+                                                    href="https://documentation.tricentis.com/tosca/1300/en/content/installation_tosca/change_repair_uninstall.htm">Maintaining
+                                                    the Tosca installation</a></li>
+                                            <li class="tree-node tree-node-leaf" data-mc-id="23"><a
+                                                    href="https://documentation.tricentis.com/tosca/1300/en/content/installation_tosca/prepare_multiuser.htm">Preparing
+                                                    databases for the multiuser mode</a></li>
+                                            <li class="tree-node is-accordion-submenu-parent" data-mc-id="24"><a
+                                                    href="https://documentation.tricentis.com/tosca/1300/en/content/installation_tosca/windows2016_overview.htm">Tosca
+                                                    Commander on Windows Server 2016<span
+                                                        class="submenu-toggle-container" role="button" tabindex="0"
+                                                        aria-expanded="false"><span
+                                                            class="submenu-toggle">&nbsp;</span><span
+                                                            class="invisible-label">Tosca Commander on Windows Server
+                                                            2016&nbsp;</span></span></a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="tree-node is-accordion-submenu-parent" data-mc-id="5"><a
+                                            href="https://documentation.tricentis.com/tosca/1300/en/content/tosca_server/tosca_server.htm">Install
+                                            Tricentis Tosca Server<span class="submenu-toggle-container" role="button"
+                                                tabindex="0" aria-expanded="false"><span
+                                                    class="submenu-toggle">&nbsp;</span><span
+                                                    class="invisible-label">Install Tricentis Tosca
+                                                    Server&nbsp;</span></span></a></li>
+                                    <li class="tree-node is-accordion-submenu-parent" data-mc-id="6"><a
+                                            href="https://documentation.tricentis.com/tosca/1300/en/content/upgrade/upgrade_overview.htm">Upgrade
+                                            from 12.3 to 13.0<span class="submenu-toggle-container" role="button"
+                                                tabindex="0" aria-expanded="false"><span
+                                                    class="submenu-toggle">&nbsp;</span><span
+                                                    class="invisible-label">Upgrade from 12.3 to
+                                                    13.0&nbsp;</span></span></a></li>
+                                    <li class="tree-node is-accordion-submenu-parent" data-mc-id="7"><a
+                                            href="https://documentation.tricentis.com/tosca/1300/en/content/licensing/lic_administering_licenses.htm">License
+                                            administration<span class="submenu-toggle-container" role="button"
+                                                tabindex="0" aria-expanded="false"><span
+                                                    class="submenu-toggle">&nbsp;</span><span
+                                                    class="invisible-label">License
+                                                    administration&nbsp;</span></span></a></li>
+                                    <li class="tree-node is-accordion-submenu-parent" data-mc-id="8"><a
+                                            href="https://documentation.tricentis.com/tosca/1300/en/content/tutorial/introduction.htm">First
+                                            steps tutorial<span class="submenu-toggle-container" role="button"
+                                                tabindex="0" aria-expanded="false"><span
+                                                    class="submenu-toggle">&nbsp;</span><span
+                                                    class="invisible-label">First steps tutorial&nbsp;</span></span></a>
+                                    </li>
+                                    <li class="tree-node is-accordion-submenu-parent" data-mc-id="9"><a
+                                            href="https://documentation.tricentis.com/tosca/1300/en/content/tosca_commander/create_and_manage_workspaces.htm">Create
+                                            and manage workspaces<span class="submenu-toggle-container" role="button"
+                                                tabindex="0" aria-expanded="false"><span
+                                                    class="submenu-toggle">&nbsp;</span><span
+                                                    class="invisible-label">Create and manage
+                                                    workspaces&nbsp;</span></span></a></li>
+                                    <li class="tree-node is-accordion-submenu-parent" data-mc-id="10"><a
+                                            href="https://documentation.tricentis.com/tosca/1300/en/content/tosca_commander/working_with_tosca.htm">Work
+                                            with Tricentis Tosca<span class="submenu-toggle-container" role="button"
+                                                tabindex="0" aria-expanded="false"><span
+                                                    class="submenu-toggle">&nbsp;</span><span
+                                                    class="invisible-label">Work with Tricentis
+                                                    Tosca&nbsp;</span></span></a></li>
+                                    <li class="tree-node is-accordion-submenu-parent" data-mc-id="11"><a
+                                            href="https://documentation.tricentis.com/tosca/1300/en/content/tosca_commander/administering_projects.htm">Manage
+                                            projects and users<span class="submenu-toggle-container" role="button"
+                                                tabindex="0" aria-expanded="false"><span
+                                                    class="submenu-toggle">&nbsp;</span><span
+                                                    class="invisible-label">Manage projects and
+                                                    users&nbsp;</span></span></a></li>
+                                    <li class="tree-node is-accordion-submenu-parent" data-mc-id="12"><a
+                                            href="https://documentation.tricentis.com/tosca/1300/en/content/resources/webhelp/tosca_options_and_settings_overview.htm">Configure
+                                            options and settings<span class="submenu-toggle-container" role="button"
+                                                tabindex="0" aria-expanded="false"><span
+                                                    class="submenu-toggle">&nbsp;</span><span
+                                                    class="invisible-label">Configure options and
+                                                    settings&nbsp;</span></span></a></li>
+                                    <li class="tree-node is-accordion-submenu-parent" data-mc-id="13"><a
+                                            href="https://documentation.tricentis.com/tosca/1300/en/content/resources/webhelp/tosca_sections_overview.htm">Plan,
+                                            create and execute tests<span class="submenu-toggle-container" role="button"
+                                                tabindex="0" aria-expanded="false"><span
+                                                    class="submenu-toggle">&nbsp;</span><span
+                                                    class="invisible-label">Plan, create and execute
+                                                    tests&nbsp;</span></span></a></li>
+                                    <li class="tree-node is-accordion-submenu-parent" data-mc-id="14"><a
+                                            href="https://documentation.tricentis.com/tosca/1300/en/content/tbox/tbox_intro.htm">Steer
+                                            with Engines 3.0<span class="submenu-toggle-container" role="button"
+                                                tabindex="0" aria-expanded="false"><span
+                                                    class="submenu-toggle">&nbsp;</span><span
+                                                    class="invisible-label">Steer with Engines
+                                                    3.0&nbsp;</span></span></a></li>
+                                    <li class="tree-node is-accordion-submenu-parent" data-mc-id="15"><a
+                                            href="https://documentation.tricentis.com/tosca/1300/en/content/classic_engines/engines.htm">Steer
+                                            with Classic Engines<span class="submenu-toggle-container" role="button"
+                                                tabindex="0" aria-expanded="false"><span
+                                                    class="submenu-toggle">&nbsp;</span><span
+                                                    class="invisible-label">Steer with Classic
+                                                    Engines&nbsp;</span></span></a></li>
+                                    <li class="tree-node is-accordion-submenu-parent" data-mc-id="16"><a
+                                            href="https://documentation.tricentis.com/tosca/1300/en/content/resources/webhelp/addins.htm">Tosca
+                                            Extensions<span class="submenu-toggle-container" role="button" tabindex="0"
+                                                aria-expanded="false"><span class="submenu-toggle">&nbsp;</span><span
+                                                    class="invisible-label">Tosca Extensions&nbsp;</span></span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <div class="body-container">
+                            <div data-mc-content-body="True">
+                                <table align="center" class="deckblatt_tabelle">
+                                    <colgroup>
+                                        <col style="width: 318px;">
+                                        <col style="width: 50%;">
+                                    </colgroup>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="nocontent">
+                                                    <div class="MCBreadcrumbsBox_WebHelp_0 breadcrumbs"
+                                                        role="navigation" aria-label="Breadcrumbs"
+                                                        data-mc-breadcrumbs-divider=" &gt; "
+                                                        data-mc-breadcrumbs-count="3" data-mc-toc="True"
+                                                        data-mc-chunk="Data/Toc.xml"><span
+                                                            class="MCBreadcrumbsPrefix">You are here: </span>
+                                                        <span class="MCBreadcrumbsSelf">Install Tricentis Tosca</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="kopfzeile_ungerade_logo" style="text-align: right;">
+                                                <label>Version:</label>
+                                                <select name="select-version" id="select-version">
+                                                    <option
+                                                        value="https://documentation.tricentis.com/tosca/1300/en/index.htm">
+                                                        13.1</option>
+                                                    <option
+                                                        value="https://documentation.tricentis.com/tosca/1300/en/index.htm">
+                                                        13.0</option>
+                                                    <option
+                                                        value="https://documentation.tricentis.com/tosca/1230/en/index.htm">
+                                                        12.3</option>
+                                                    <option
+                                                        value="https://documentation.tricentis.com/tosca/1220/en/index.htm">
+                                                        12.2</option>
+                                                    <option
+                                                        value="https://documentation.tricentis.com/tosca/1210/en/index.htm">
+                                                        12.1</option>
+                                                    <option
+                                                        value="https://documentation.tricentis.com/en/1200/index.htm#resources/webhelp/cover_web.htm">
+                                                        12.0</option>
+                                                </select>
+                                                <!--      <script type="text/javascript">
+							var urlmenu = document.getElementById( 'select-version' );
+							urlmenu.onchange = function() {
+							window.open( this.options[ this.selectedIndex ].value );
+							};
+						</script> 
+						<script type="text/javascript">
+							var urlmenu = document.getElementById( 'select-version' );
+							urlmenu.onchange = function() {
+							window.location= this.options[ this.selectedIndex ].value ;
+							};
+						</script>
+					-->
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table><a
+                                    href="https://documentation.tricentis.com/tosca/1300/en/content/installation_tosca/installation.htm#"
+                                    class="scrollup">Scroll</a>
+                                <p>
+                                </p>
+                                <hr class="chm" width="100%" size="0" align="center">
+                                <div id="content_w_sidebar">
+                                    <div class="sidebar" id="toc"
+                                        style="border-left-style: solid;border-left-width: 1px;border-left-color: #b1b3b3;border-right-style: solid;border-right-width: 1px;border-right-color: #b1b3b3;border-top-style: solid;border-top-width: 1px;border-top-color: #b1b3b3;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #b1b3b3;padding-left: 0px;padding-right: 0px;padding-top: 12px;padding-bottom: 12px;">
+                                        <span class="sidebarheading"><span
+                                                style="font-weight: bold;font-style: normal;color: #0C2949;text-decoration: none;">
+                                                <span>In this topic</span></span></span>
+                                        <div class="sidebartoc">
+                                            <ul class="innerstep">
+                                                <li><a class="topiclink navlinks"
+                                                        href="https://documentation.tricentis.com/tosca/1300/en/content/installation_tosca/installation.htm#TricentisToscainstallationoverview">
+                                                        Tricentis Tosca installation overview</a></li>
+                                                <li><a class="topiclink navlinks"
+                                                        href="https://documentation.tricentis.com/tosca/1300/en/content/installation_tosca/installation.htm#ToscaCommanderAddIns">Tosca
+                                                        Commander AddIns</a></li>
+                                                <li><a class="topiclink navlinks"
+                                                        href="https://documentation.tricentis.com/tosca/1300/en/content/installation_tosca/installation.htm#ToscaCommanderAPI">Tosca
+                                                        Commander API</a></li>
+                                                <li><a class="topiclink navlinks"
+                                                        href="https://documentation.tricentis.com/tosca/1300/en/content/installation_tosca/installation.htm#ToscaCommanderversions32-bitand64-bit-differences">
+                                                        Tosca Commander versions 32-bit and 64-bit - differences</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- placeholder for side menu -->
+                                    <div class="masterpage_body" style="width: 83%; max-width: calc(100% - 150px);">
+                                        <div class="Body_WebHelp" role="main" id="mc-main-content">
+                                            <h1><a name="TricentisToscainstallationoverview"></a><a
+                                                    name="aanchor550"></a>
+                                                <madcap:concept term="Installation"><a
+                                                        name="TOSCA_Testsuite_Installation_Guide_en_3608560094_1010301"></a><a
+                                                        name="TOSCA_Testsuite_Installation_Guide_en_3608560094_52037"></a><span
+                                                        class="Product_Name"
+                                                        data-mc-conditions="Medien.NurWebHelp">Tricentis Tosca</span>
+                                                    installation overview</madcap:concept>
+                                            </h1>
+                                            <p>This chapter gives an overview of the <span
+                                                    class="Product_Name">Tricentis Tosca</span> installation.</p>
+                                            <table class="hinweis_tabelle" style="caption-side: top;">
+                                                <colgroup>
+                                                    <col style="width: 65px;">
+                                                    <col>
+                                                </colgroup>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="hinweis_tabelle_hinweis">
+                                                            <img src="./installation_files/symboltip.png"
+                                                                class="rufzeichen">
+                                                        </td>
+                                                        <td class="hinweis_tabelle_hinweis">
+                                                            <p class="Zelle_Haupttext">To ensure full functionality,
+                                                                make sure that you have installed the latest <span
+                                                                    class="Product_Name">Windows</span> updates of the
+                                                                category Critical (<span
+                                                                    class="Product_Name">Windows</span> 7, 8) or Quality
+                                                                (<span class="Product_Name">Windows</span> 10). For
+                                                                further information on software versions and hardware
+                                                                requirements, refer to the <a
+                                                                    href="https://documentation.tricentis.com/tosca/1300/en/content/systemrequirements/systemrequirements.htm">System
+                                                                    Requirements</a>.</p>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <p>To install <span class="Product_Name">Tricentis Tosca</span>, you need
+                                                local administrator rights. To use <span class="Product_Name">Tricentis
+                                                    Tosca</span>, you need write permission for the directory <span
+                                                    class="_Dateisystem">%TRICENTIS_PROJECTS%</span>.</p>
+                                            <table cellpadding="0" cellspacing="0"
+                                                style="border-spacing-x: 0;border-spacing-y: 0;border-collapse: collapse;border-color: black;caption-side: bottom;mc-table-style: url(&#39;../resources/tablestyles/tricentis_standard_tabelle.css&#39;);margin-left: auto;margin-right: 0;"
+                                                class="TableStyle-tricentis_standard_tabelle">
+                                                <caption data-mc-autonum=""><span
+                                                        class="autonumber"><span></span></span>Default paths of <span
+                                                        class="Product_Name">Tricentis Tosca</span></caption>
+                                                <colgroup>
+                                                    <col width="190px"
+                                                        class="TableStyle-tricentis_standard_tabelle-Column-Column1">
+                                                    <col class="TableStyle-tricentis_standard_tabelle-Column-Column1">
+                                                </colgroup>
+                                                <thead>
+                                                    <tr class="TableStyle-tricentis_standard_tabelle-Head-Header1">
+                                                        <td
+                                                            class="TableStyle-tricentis_standard_tabelle-HeadE-Column1-Header1">
+                                                            <p class="Zelle_Ueberschrift">Variable</p>
+                                                        </td>
+                                                        <td
+                                                            class="TableStyle-tricentis_standard_tabelle-HeadD-Column1-Header1">
+                                                            <p class="Zelle_Ueberschrift">Default path</p>
+                                                        </td>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr style="height: 15px;"
+                                                        class="TableStyle-tricentis_standard_tabelle-Body-Body1">
+                                                        <td
+                                                            class="TableStyle-tricentis_standard_tabelle-BodyB-Column1-Body1">
+                                                            <p class="Zelle_Haupttext"><span
+                                                                    class="Dateisystem">%TRICENTIS_PROJECTS%</span>
+                                                            </p>
+                                                        </td>
+                                                        <td
+                                                            class="TableStyle-tricentis_standard_tabelle-BodyA-Column1-Body1">
+                                                            <p class="Zelle_Haupttext"><span
+                                                                    class="Dateisystem">C:\Tosca_Projects</span>
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <p>The installation file <span class="Dateisystem">Tosca
+                                                    TestSuite.&lt;version number&gt;.exe</span> contains all components
+                                                of <span class="Product_Name">Tricentis Tosca</span>. To access the
+                                                installation file, refer to the <a
+                                                    href="https://support.tricentis.com/community/top_downloads.do"
+                                                    target="_blank">Tricentis Support Portal</a>.</p>
+                                            <p>For step-by-step instructions of the installation process, <a
+                                                    href="https://documentation.tricentis.com/tosca/1300/en/content/installation_tosca/installation_process.htm"
+                                                    class="siehe_Kapitelnummer MCXref xref xrefsiehe_Kapitelnummer">see
+                                                    chapter "Perform the installation"</a>.</p>
+                                            <p>You can modify or uninstall an installed <span
+                                                    class="Product_Name">Tricentis Tosca</span> when you start the
+                                                installation file <span class="Dateisystem">Tosca TestSuite.&lt;version
+                                                    number&gt;.exe</span> of the same version.</p>
+                                            <h2><a name="ToscaCommanderAddIns"></a><span class="Product_Name">Tosca
+                                                    Commander</span> AddIns</h2>
+                                            <p><span class="Product_Name">Tricentis Tosca</span> installs the following
+                                                AddIns automatically during default installation:</p>
+                                            <ul>
+                                                <li value="1">
+                                                    <p><span class="Product_Name">Tosca TestCase-Design</span>
+                                                    </p>
+                                                </li>
+                                                <li value="2">
+                                                    <p><span class="Product_Name">Tosca Reporting</span>
+                                                    </p>
+                                                </li>
+                                                <li value="3">
+                                                    <p><span class="Product_Name">Tosca Requirements Management</span>
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                            <p>In <span class="Product_Name">Tosca Commander</span>, you can view
+                                                objects of AddIns that require a separate license but you cannot edit
+                                                them. For detailed information on <span class="Product_Name">Tricentis
+                                                    Tosca</span> AddIns, refer to the corresponding documentation.</p>
+                                            <h2><a name="ToscaCommanderAPI"></a><a name="Tosca"></a><span
+                                                    class="Product_Name">Tosca Commander</span> API</h2>
+                                            <p><span class="Product_Name">Tricentis Tosca</span> contains a programming
+                                                interface that allows you to open workspaces and retrieve data from
+                                                <span class="Product_Name">Tosca Commander</span>, both manipulated and
+                                                newly created. The documentation is a <span
+                                                    class="Dateisystem">.chm</span> file that you can find in the
+                                                directory <span class="Dateisystem">%COMMANDER_HOME%\TCAPI.chm</span> .
+                                            </p>
+                                            <p>Additionally, you can extend the functionality, such as additional menu
+                                                entries, drag and drop operations, etc. The documentation is in the same
+                                                directory, in the <span class="Dateisystem">TCAddOns.chm</span> file.
+                                            </p>
+                                            <p>To use the <span class="Product_Name">Tosca Commander</span> API, you
+                                                have to request its separate license. Contact your <span
+                                                    class="Product_Name">Tricentis Tosca</span> sales agent for further
+                                                information.</p>
+                                            <h2><a name="ToscaCommanderversions32-bitand64-bit-differences"></a><a
+                                                    name="aanchor551"></a>
+                                                <madcap:concept term="Installation"><span class="Product_Name">Tosca
+                                                        Commander</span> versions 32-bit and 64-bit - differences
+                                                </madcap:concept>
+                                            </h2>
+                                            <p><span class="Product_Name">Tosca Commander</span> runs in 32 or 64-bit
+                                                mode, depending on whether you have a 64-bit or 32-bit operating system.
+                                            </p>
+                                            <p>The directory <span class="Dateisystem">%COMMANDER_HOME%</span> includes
+                                                the following processor-independent executable files:</p>
+                                            <ul>
+                                                <li value="1">
+                                                    <p><span class="Dateisystem">TOSCACommander.exe</span>
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                            <ul>
+                                                <li value="1">
+                                                    <p><span class="Dateisystem">TCShell.exe</span>
+                                                    </p>
+                                                </li>
+                                                <li value="2">
+                                                    <p><span class="Dateisystem">DbRepositorySchemaMigrator.exe</span>
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                            <table class="hinweis_tabelle" style="caption-side: top;">
+                                                <colgroup>
+                                                    <col style="width: 65px;">
+                                                    <col>
+                                                </colgroup>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="hinweis_tabelle_hinweis">
+                                                            <img src="./installation_files/symboltip.png"
+                                                                class="rufzeichen">
+                                                        </td>
+                                                        <td class="hinweis_tabelle_hinweis">
+                                                            <p class="Zelle_Haupttext">You need executable program files
+                                                                with the extension <span
+                                                                    class="Dateisystem">*X86.exe</span> if you run the
+                                                                application in 32-bit mode on a 64-bit system.</p>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <p>For a more detailed list of supported operating systems, refer to the <a
+                                                    href="https://documentation.tricentis.com/tosca/1300/en/content/systemrequirements/systemrequirements.htm">System
+                                                    Requirements</a>.</p>
+                                            <p class="Zwischenueberschrifr">64-bit support for <span
+                                                    class="Product_Name">DB2</span> repositories</p>
+                                            <p><span class="Product_Name">Tosca Commander</span> in 32-bit supports
+                                                <span class="Product_Name">DB2</span> repositories by default. For
+                                                64-bit installations, you need to add an entry to the corresponding
+                                                configuration file.
+                                            </p>
+                                            <ul>
+                                                <li value="1">
+                                                    <p><span class="Dateisystem">ToscaCommander.exe.config</span>
+                                                    </p>
+                                                </li>
+                                                <li value="2">
+                                                    <p><span class="Dateisystem">TCShell.exe.config</span>
+                                                    </p>
+                                                </li>
+                                                <li value="3">
+                                                    <p><span class="Dateisystem">TOSCARemoteCommander.exe.config</span>
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                            <p>You must insert the following entry between the following tags: <span
+                                                    class="Code">&lt;runtime&gt;</span> and <span
+                                                    class="Code">&lt;/runtime&gt;</span>, after the existing <span
+                                                    class="Dateisystem">assemblyBinding</span> nodes.</p>
+                                            <pre><code class=" hljs xml"><p class="Code"> <span class="hljs-tag">&lt;<span class="hljs-title">assemblyBinding</span> <span class="hljs-attribute">xmlns</span>=<span class="hljs-value">"urn:schemas-microsoft-com:asm.v1"</span>&gt;</span></p><p class="Code">    <span class="hljs-tag">&lt;<span class="hljs-title">dependentAssembly</span>&gt;</span></p><p class="Code">      <span class="hljs-tag">&lt;<span class="hljs-title">assemblyIdentity</span> <span class="hljs-attribute">name</span>=<span class="hljs-value">"IBM.Data.DB2"</span> <span class="hljs-attribute">publicKeyToken</span>=<span class="hljs-value">"7c307b91aa13d208"</span> <span class="hljs-attribute">culture</span>=<span class="hljs-value">""</span> /&gt;</span></p><p class="Code">      <span class="hljs-tag">&lt;<span class="hljs-title">bindingRedirect</span> <span class="hljs-attribute">oldVersion</span>=<span class="hljs-value">"8.0.0.0-9.0.0.1"</span> <span class="hljs-attribute">newVersion</span>=<span class="hljs-value">"9.0.0.2"</span> /&gt;</span>  </p><p class="Code">    <span class="hljs-tag">&lt;/<span class="hljs-title">dependentAssembly</span>&gt;</span> </p><p class="Code"> <span class="hljs-tag">&lt;/<span class="hljs-title">assemblyBinding</span>&gt;</span></p></code></pre>
+                                            <p>Create one configuration file for each of the following programs: </p>
+                                            <ul>
+                                                <li value="1">
+                                                    <p><span class="Dateisystem">TDMObjectEditor.exe</span>
+                                                    </p>
+                                                </li>
+                                                <li value="2">
+                                                    <p><span class="Dateisystem">DbRepositorySchemaMigrator.exe</span>
+                                                    </p>
+                                                </li>
+                                                <li value="3">
+                                                    <p>TCAPI programs, e.g. <span
+                                                            class="Dateisystem">TDMObjectEditor.exe.config</span></p>
+                                                </li>
+                                            </ul>
+                                            <p>File content:</p>
+                                            <pre><code class=" hljs xml"><p class="Code"><span class="hljs-pi">&lt;?xml version="1.0"?&gt;</span></p><p class="Code">  <span class="hljs-tag">&lt;<span class="hljs-title">configuration</span>&gt;</span></p><p class="Code">   <span class="hljs-tag">&lt;<span class="hljs-title">runtime</span>&gt;</span></p><p class="Code">    <span class="hljs-tag">&lt;<span class="hljs-title">assemblyBinding</span> <span class="hljs-attribute">xmlns</span>=<span class="hljs-value">"urn:schemas-microsoft-com:asm.v1"</span>&gt;</span></p><p class="Code">     <span class="hljs-tag">&lt;<span class="hljs-title">dependentAssembly</span>&gt;</span></p><p class="Code">      <span class="hljs-tag">&lt;<span class="hljs-title">assemblyIdentity</span> <span class="hljs-attribute">name</span>=<span class="hljs-value">"IBM.Data.DB2"</span> <span class="hljs-attribute">publicKeyToken</span>=<span class="hljs-value">"7c307b91aa13d208"</span> <span class="hljs-attribute">culture</span>=<span class="hljs-value">""</span> /&gt;</span></p><p class="Code">      <span class="hljs-tag">&lt;<span class="hljs-title">bindingRedirect</span> <span class="hljs-attribute">oldVersion</span>=<span class="hljs-value">"8.0.0.0-9.0.0.1"</span> <span class="hljs-attribute">newVersion</span>=<span class="hljs-value">"9.0.0.2"</span> /&gt;</span></p><p class="Code">      <span class="hljs-tag">&lt;<span class="hljs-title">codeBase</span> <span class="hljs-attribute">version</span>=<span class="hljs-value">"9.0.0.2"</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"C:\Program Files (x86)\IBM\DB2DSDriver\bin\netf20\IBM.Data.DB2.dll"</span>/&gt;</span></p><p class="Code">    <span class="hljs-tag">&lt;/<span class="hljs-title">dependentAssembly</span>&gt;</span></p><p class="Code">  <span class="hljs-tag">&lt;/<span class="hljs-title">assemblyBinding</span>&gt;</span></p><p class="Code"><span class="hljs-tag">&lt;/<span class="hljs-title">runtime</span>&gt;</span></p><p class="Code"><span class="hljs-tag">&lt;/<span class="hljs-title">configuration</span>&gt;</span></p></code></pre>
+                                            <p class="Zwischenueberschrifr">Restrictions in the 64-bit mode</p>
+                                            <p>The 64-bit compatibility applies exclusively to &nbsp;<span
+                                                    class="Product_Name">Tosca Commander</span> and the standard AddIns
+                                                (<span class="Product_Name">Tosca Requirements</span>, <span
+                                                    class="Product_Name">Tosca TestCase-Design</span>, <span
+                                                    class="Product_Name">Tosca Reporting</span>, and <span
+                                                    class="Product_Name">Tosca Structured Objects</span>).</p>
+                                            <p class="Zwischenueberschrifr">Restrictions concerning the <span
+                                                    class="Product_Name">Reporting</span> AddIn</p>
+                                            <p>You cannot read out or modify reports that have been created with <span
+                                                    class="Product_Name">Crystal Reports</span>.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--		<MadCap:miniTocProxy class="WebHelp" style="mc-toc-depth: 1;" MadCap:autonum="Related chapters:" /> -->
+                                <hr class="chm" width="100%" size="0" align="center">
+                                <div class="WebHelp_breadcrumps">
+                                    <div id="feedback" class="WebHelp_breadcrumps" style="display: none;">
+                                        <div style="font-size: 16px; font-weight: bold; padding-top: 10px;">Was this
+                                            information helpful?</div>
+                                        <br>
+                                        <div class="btn-group btn-group-justified btn-feedback-choice"
+                                            id="recommend_support" role="group"><a
+                                                class="btn btn-feedback btn-feedback-yes" data-selected="false"
+                                                data-val="0"></a><a class="btn btn-feedback btn-feedback-neutral"
+                                                data-selected="false" data-val="1"></a><a
+                                                class="btn btn-feedback btn-feedback-no" data-selected="false"
+                                                data-val="2"></a>
+                                        </div>
+                                    </div>
+                                    <p class="Footer1" style="clear:both">Tricentis Tosca Manual <span
+                                            class="tricentisprodukt_version">13.0</span> © Tricentis GmbH</p>
+                                </div>
+                                <script src="./installation_files/highlight.pack.js.download">
+                                </script>
+                                <script>/* <![CDATA[ */hljs.initHighlightingOnLoad();/* ]]> */</script>
+                                <!--    <script type="text/javascript" src="https://documentation.tricentis.com/permalink/hideHeader.js">
+        </script>
+		<script type="text/javascript" src="http://localhost:83/feedback.js">
+		</script>
+-->
+                                <script type="text/javascript"
+                                    src="./installation_files/tricentis_docu_scripts.js.download">
+                                    </script>
+                                <script type="text/javascript"
+                                    src="./installation_files/toscaVersionSelect.js.download">
+                                    </script>
+                            </div>
+                        </div>
+                    </div>
+                </div><a data-close="true"></a>
+                <div class="js-off-canvas-exit"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
